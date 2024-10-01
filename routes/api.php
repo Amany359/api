@@ -39,4 +39,3 @@ Route::group(['middleware'=>'auth:sanctum'],function () {
   Route::apiResource('subprojects', SubprojectController::class);
 });
 
-
